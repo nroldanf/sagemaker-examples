@@ -1,0 +1,9 @@
+name: sagemaker-examples
+channels:
+  - defaults
+dependencies:
+  - pip=21.0.1
+  - python=3.7.11
+  - pip:
+    - pre-commit==2.15.0
+prefix: /opt/anaconda3/envs/sagemaker-examples
